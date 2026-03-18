@@ -1,0 +1,35 @@
+34 64 25 12 22 11 90 
+34 25 64 12 22 11 90 
+34 25 12 64 22 11 90 
+34 25 12 22 64 11 90 
+34 25 12 22 11 64 90 
+25 34 12 22 11 64 90 
+25 12 34 22 11 64 90 
+25 12 22 34 11 64 90 
+25 12 22 11 34 64 90 
+12 25 22 11 34 64 90 
+12 22 25 11 34 64 90 
+12 22 11 25 34 64 90 
+12 11 22 25 34 64 90 
+11 12 22 25 34 64 90 
+11 12 22 25 34 64 90 
+
+ Performance counter stats for './bubble_sort':
+
+         1,190,876      task-clock                       #    0.573 CPUs utilized             
+                 1      context-switches                 #  839.718 /sec                      
+                 1      cpu-migrations                   #  839.718 /sec                      
+               130      page-faults                      #  109.163 K/sec                     
+         3,264,299      instructions                     #    0.86  insn per cycle            
+                                                  #    0.48  stalled cycles per insn   
+         3,812,624      cycles                           #    3.202 GHz                       
+         1,579,280      stalled-cycles-frontend          #   41.42% frontend cycles idle      
+           622,464      branches                         #  522.694 M/sec                     
+            47,035      branch-misses                    #    7.56% of all branches           
+
+       0.002077784 seconds time elapsed
+
+       0.000000000 seconds user
+       0.002133000 seconds sys
+
+
