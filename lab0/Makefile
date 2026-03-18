@@ -1,0 +1,21 @@
+CXX := g++
+CXXFLAGS := -std=c++17 -Wall -Wextra -O2
+TARGET := bubble_sort
+SRCS := main.cpp bubblesort.cpp
+OBJS := $(SRCS:.cpp=.o)
+
+.PHONY: all clean debug
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $@ $(OBJS)
+
+%.o: %.cpp bubblesort.hpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+debug: CXXFLAGS += -DDEBUG_BUBBLE
+debug: clean $(TARGET)
+
+clean:
+	rm -f $(OBJS) $(TARGET)

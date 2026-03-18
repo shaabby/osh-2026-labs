@@ -1,0 +1,10 @@
+# Build artifacts for lab0
+lab0/*.o
+lab0/bubble_sort
+
+# CMake artifacts (optional)
+lab0/CMakeFiles/
+lab0/CMakeCache.txt
+lab0/cmake_install.cmake
+lab0/Makefile.old
+lab0/compile_commands.json
