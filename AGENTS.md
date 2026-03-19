@@ -5,8 +5,8 @@ These rules apply to all agent-assisted work in this repository.
 
 ## Required Pre-Read
 Before starting any lab task, read and follow:
-- `/memories/repo/osh-2026-course.md`
-- `/memories/repo/osh-2026-lab0-checklist.md`
+- `.memories/repo/osh-2026-course.md`
+- `.memories/repo/osh-2026-lab0-checklist.md`
 
 ## Core Principle
 AI is allowed, but unauditable work is not allowed.
